@@ -1,0 +1,19 @@
+@import '/src/Styles/vars.scss';
+
+.chat-list__add-btn {
+    @include button-links;
+    @include add-links;
+    font-size: $text-size-nonChat;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-btn__plus {
+    @include button-links;
+    @include add-links;
+    margin-right: 10px;
+    font-weight: 100;
+    font-size: 35px;
+}

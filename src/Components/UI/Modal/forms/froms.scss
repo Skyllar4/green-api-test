@@ -1,0 +1,16 @@
+@import '/src/Styles/vars.scss';
+
+.modal__fields {
+    display: block;
+    @include input;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.error-text {
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(180, 26, 26);
+}

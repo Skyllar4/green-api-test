@@ -1,0 +1,41 @@
+@import '/src/Styles/vars.scss';
+
+.modal {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: flex;
+
+    &__content {
+        margin: auto;
+        background: $backgrond-app;
+        border-radius: 12px;
+        min-height: 50px;
+        min-width: 300px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    &__title {
+        color: $text-app-color;
+    }
+
+    &__submit {
+        border-radius: 12px;
+        background-color: $backgrond-app;
+        color: $text-app-color;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 11px 30px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+    }
+
+    &__submit:hover {
+        background-color: darken($backgrond-app, 10%);
+    }
+
+}

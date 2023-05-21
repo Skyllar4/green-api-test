@@ -1,0 +1,30 @@
+@import '/src/Styles/vars.scss';
+
+.message-form {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-between;
+    background-color: $inputBackground;
+
+    &__submit-btn {
+        padding: 1px 19px;
+        background-color: $inputBackground;
+        background-image: url('../../../img/free-icon-send-736161.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    &__input {
+        width: 100%;
+        @include input;
+        padding: 6px 20px;
+        outline: none;
+    }
+
+}

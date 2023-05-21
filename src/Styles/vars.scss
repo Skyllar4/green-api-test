@@ -1,0 +1,42 @@
+$backgrond-app: #111b21;
+$background-headers: darken(#8696a0, 40%);
+$text-app-color: #d1d7db;
+$inputBackground: #202c33;
+$text-app-white-color: #e9edef;
+$link-color: hsl(206,100%,52%);
+$text-size-nonChat: 20px;
+$input-placeholder-text: #8696a0;
+
+@mixin add-links {
+    color: $link-color;
+    font-weight: bold;
+}
+
+@mixin button-links {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+@mixin input {
+    border-radius: 8px;
+    background-color: $inputBackground;
+    color: $input-placeholder-text;
+    border: none;
+}
+
+@mixin zagagulina {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid plum;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+@mixin message {
+    background-color: plum;
+    color: white;
+    margin: 10px 15px;
+    padding: 5px 10px;
+    border-radius: 50px;
+}

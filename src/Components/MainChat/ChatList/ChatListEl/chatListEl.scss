@@ -1,0 +1,17 @@
+@import '/src/Styles/vars.scss';
+
+
+.chat-list-el {
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $text-app-color;
+    cursor: pointer;
+    padding: 9px 19px;
+    text-align: initial;
+  }
+
+.chat-list-el:hover {
+    background-color: #282e32;
+}

@@ -1,0 +1,42 @@
+@import '/src/Styles/vars.scss';
+
+
+.message-container {
+    @include message;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+    &__my-message {
+        display: flex;
+        justify-content: flex-end;   
+    }
+
+    &__guess-message {
+        display: flex;
+    }
+
+}
+
+.no-chats {
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0px -214px;
+    background-color: black;
+    background: rgba(69, 0, 84, 0.5);
+}
+
+.my-message {
+    @include message;
+    display: flex;
+}
+
+.guess-message {
+    @include message;
+}
+
